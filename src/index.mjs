@@ -10,7 +10,7 @@ import { fileURLToPath } from "url"
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const ARROW_NIGHTLY_TAG_URL =
-    "https://github.com/ursacomputing/crossbow/releases/tag/nightly-2022-03-03-0-github-java-jars"
+    "https://github.com/ursacomputing/crossbow/releases/tag/nightly-packaging-2022-04-06-0-github-java-jars"
 
 extractArrowNightlyJarsToLocalM2Repo(ARROW_NIGHTLY_TAG_URL)
     .then(() => console.log("Done"))
